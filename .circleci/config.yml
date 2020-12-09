@@ -9,9 +9,9 @@ jobs:
           pkg-manager: yarn
       - run:
           command: |
-            yarn run build
             yarn add electron-packager
             yarn add electron-installer-debian
+            yarn run build
             yarn run package-x64
             yarn run installer-x64
           name: Run YARN tests
