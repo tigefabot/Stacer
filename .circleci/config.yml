@@ -16,8 +16,8 @@ jobs:
           name: Run YARN tests
       - store_artifacts:
           path: 
-           - release-builds/
-           - dest/
+            - release-builds/
+            - dest/
 orbs:
   node: circleci/node@3.0.0
 version: 2.1
