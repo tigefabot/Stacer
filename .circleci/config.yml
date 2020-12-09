@@ -15,9 +15,9 @@ jobs:
             yarn run package-x64
           name: Run YARN tests
       - store_artifacts:
-          path: 
-            - release-builds/
-            - dest/
+          path: release-builds/
+      - store_artifacts:
+          path: dest/
 orbs:
   node: circleci/node@3.0.0
 version: 2.1
