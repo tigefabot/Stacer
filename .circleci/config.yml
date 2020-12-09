@@ -15,7 +15,7 @@ jobs:
       - store_artifacts:
           path: release-builds/
 orbs:
-  node: circleci/node@10.16.3
+  node: circleci/node@3.0.0
 version: 2.1
 workflows:
   test_my_app:
